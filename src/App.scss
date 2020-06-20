@@ -1,0 +1,10 @@
+@import "./styles/main.scss";
+
+.container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: $app-black;
+  color: $app-text-color;
+  height: 100vh;
+}
