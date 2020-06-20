@@ -1,13 +1,13 @@
 import React from 'react';
-import './App.css';
+import './App.scss';
 
 function App() {
   return (
-    <div className="App">
-      <header className="App-header">
+    <div className="container">
+      <div>
         To see the components close the browser and run 
         "npm run storybook"
-      </header>
+      </div>
     </div>
   );
 }
