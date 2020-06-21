@@ -1,4 +1,4 @@
-import React, { useEffect, useRef, useState } from "react";
+import React, { useLayoutEffect, useRef, useState } from "react";
 import PropTypes from "prop-types";
 import RatingSymbol from "./RatingSymbol";
 
@@ -36,7 +36,7 @@ const RatingBar = ({
   let symbolBoundingClientRec = useRef(null);
   let thresholdSymbol = useRef(null);
 
-  useEffect(() => {
+  useLayoutEffect(() => {
     mousePosition.current = containerRef.current.getBoundingClientRect();
     symbolBoundingClientRec.current = mousePosition.current;
   }, []);
