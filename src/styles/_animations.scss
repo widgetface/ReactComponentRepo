@@ -1,0 +1,17 @@
+@keyframes up-down{
+	0% {
+		transform:  translate(0px,10px)  ;
+	}
+	24% {
+		transform:  translate(0px,5px)  ;
+	}
+	50% {
+		transform:  translate(0px,10px)  ;
+	}
+	74% {
+		transform:  translate(0px,5px)  ;
+	}
+	100% {
+		transform:  translate(0px,10px)  ;
+	}
+}
