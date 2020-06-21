@@ -12,3 +12,10 @@ export { default as StyledComponentMenu } from "./menu/StyledComponentMenu";
 
 //Headings
 export { default as BasicHeader } from "../components/headers/BaseHeader";
+
+//Pickers
+export { default as BasePicker } from "../components/pickers/BasePicker";
+
+export { default as SizePicker } from "../components/pickers/SizePicker";
+
+export { default as QuantityPicker } from "../components/pickers/QuantityPicker";
