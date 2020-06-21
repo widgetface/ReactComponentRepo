@@ -26,3 +26,17 @@ storiesOf("Component | RatingBar/Standard RatingBar", module)
       </div>
     );
   });
+storiesOf("Component | RatingBar/Standard RatingBar", module)
+  .addDecorator(withInfo)
+  .add("Column layout - score of 3 and iconNumber 5", () => {
+    return (
+      <div style={{ backgroundColor: "black", marginTop: 50 }}>
+        <RatingBar
+          barDirection="column"
+          score={3}
+          iconNumber={5}
+          onRated={action("thanks for your rating")}
+        />
+      </div>
+    );
+  });
