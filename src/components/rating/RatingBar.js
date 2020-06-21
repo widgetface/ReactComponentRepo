@@ -1,6 +1,8 @@
 import React, { useEffect, useRef, useState } from "react";
+import PropTypes from "prop-types";
 import RatingSymbol from "./RatingSymbol";
 
+const { bool, string, number, object, oneOf, func } = PropTypes;
 const defaultDirection = "left";
 const defaultScore = -1;
 const row = {
@@ -139,6 +141,16 @@ const RatingBar = ({
   );
 };
 
-RatingBar.propTypes = {};
+RatingBar.propTypes = {
+  barDirection: oneOf(["row", "column"]),
+  direction: oneOf(["left", "right"]),
+  disabled: bool,
+  iconNumber: number,
+  id: string,
+  score: number,
+  symbolContainerStyle: object,
+  symbolStyle: object,
+  onRated: func,
+};
 
 export default RatingBar;
