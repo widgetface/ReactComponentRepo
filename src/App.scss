@@ -7,4 +7,9 @@
   background-color: $app-black;
   color: $app-text-color;
   height: 100vh;
+
+  &div {
+    flex: 1 1 auto;
+    margin: 10px;
+  }
 }
