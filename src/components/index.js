@@ -8,7 +8,7 @@ export { default as AnimePost } from "../components/comments/posts/AminePost";
 export { default as AnimeProgress } from "../components/progress/AnimeProgress";
 
 //Menu
-export { default as StyledComponentMenu } from "../components/menu/StyledComponntMenu";
+export { default as StyledComponentMenu } from "./menu/StyledComponentMenu";
 
-//Cards
-export { default as SpinCard180 } from "../components/cards/SpinCard180";
+//Headings
+export { default as BasicHeader } from "../components/headers/BaseHeader";
