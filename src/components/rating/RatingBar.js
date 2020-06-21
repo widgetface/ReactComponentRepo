@@ -5,6 +5,7 @@ import RatingSymbol from "./RatingSymbol";
 const { bool, string, number, object, oneOf, func } = PropTypes;
 const defaultDirection = "left";
 const defaultScore = -1;
+
 const row = {
   display: "flex",
   flex: "0 0 auto",
@@ -142,10 +143,10 @@ const RatingBar = ({
 };
 
 RatingBar.propTypes = {
+  iconNumber: number.isRequired,
   barDirection: oneOf(["row", "column"]),
   direction: oneOf(["left", "right"]),
   disabled: bool,
-  iconNumber: number,
   id: string,
   score: number,
   symbolContainerStyle: object,
