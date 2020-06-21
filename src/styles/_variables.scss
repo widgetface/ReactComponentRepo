@@ -1,2 +1,51 @@
 $app-black: #000;
 $app-text-color: #fff;
+$text-mid-grey: #808080;
+$linear-gradient-start: #ffeeaa;
+$linear-gradient-stop: #28b483;
+$box-shadow-black: #000;
+$text-grey: #777;
+$background-white: #fff;
+$text-grey-1: #7f7f7f;
+$background: #90ee90;
+$button-background: #47cf73;
+$color-black: #000;
+$color-white: #fff;
+
+$linear-gradient-app: linear-gradient(
+  to right bottom,
+  rgba($linear-gradient-start, 0.6),
+  rgba($linear-gradient-stop, 0.8)
+);
+
+$color-primary: #55c57a;
+$color-primary-light: #7ed56f;
+$color-primary-dark: #28b485;
+
+$color-secondary-light: #ffb900;
+$color-secondary-dark: #ff7730;
+
+$color-tertiary-light: #2998ff;
+$color-tertiary-dark: #5643fa;
+
+$color-grey-light-1: #f7f7f7;
+$color-grey-light-2: #eee;
+
+$color-grey-dark: #777;
+$color-grey-dark-2: #999;
+$color-grey-dark-3: #333;
+
+$color-white: #fff;
+$color-black: #000;
+
+// FONT
+$default-font-size: 1.6rem;
+
+// GRID
+$grid-width: 114rem;
+$gutter-vertical: 8rem;
+$gutter-vertical-small: 6rem;
+$gutter-horizontal: 6rem;
+
+//media queries
+$breakpoint-tablet: 768px;
