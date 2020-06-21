@@ -8,4 +8,5 @@ In the project directory, you can run:
 
 This will open storybook and allow you to view each component
 
-A work in progress.
+# Its a collection of approaches to building React compoenets , using things like Sass , Styled Components and animation libraries.
+# This will be aded to over time and test implemented
