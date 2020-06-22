@@ -46,12 +46,11 @@ const HiddenCheckbox = styled.input
 `;
 
 const StyledCheckboxToggle = ({
-  value,
   onChange,
-  onComponent,
-  offComponent,
+  onComponent = <span>ON</span>,
+  offComponent = <span>OFF</span>,
   name,
-  disabled,
+  disabled = false,
   backgroundColor = "#f00ff",
   borderColor = "#e0e0e0",
   borderRadius = 5,
@@ -88,13 +87,6 @@ const StyledCheckboxToggle = ({
       </Slider>
     </Container>
   );
-};
-
-StyledCheckboxToggle.defaultProps = {
-  onComponent: <span>ON</span>,
-  offComponent: <span>OFF</span>,
-  onChange: () => {},
-  disabled: false,
 };
 
 export default StyledCheckboxToggle;
