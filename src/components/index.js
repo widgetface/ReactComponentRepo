@@ -27,3 +27,6 @@ export { Active, Clock, DownArrow } from "../components/icons";
 
 //Banners
 export { default as StyledBasicHeader } from "../components/banners/StyledBasicHeader";
+
+//Form elements
+export { default as StyledCheckBoxToggle } from "../components/checkboxes/StyledCheckBoxToggle";
