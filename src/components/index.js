@@ -19,3 +19,11 @@ export { default as BasePicker } from "../components/pickers/BasePicker";
 export { default as SizePicker } from "../components/pickers/SizePicker";
 
 export { default as QuantityPicker } from "../components/pickers/QuantityPicker";
+
+export { default as ColorPicker } from "../components/pickers/colourPicker/ColorPicker";
+
+//Icons
+export { Active, Clock, DownArrow } from "../components/icons";
+
+//Banners
+export { default as StyledBasicHeader } from "../components/banners/StyledBasicHeader";
