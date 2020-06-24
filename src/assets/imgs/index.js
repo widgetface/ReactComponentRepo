@@ -1,0 +1,6 @@
+export {default as EdinburghOne } from './ed1.jpg'
+export {default as EdinburghTwo } from './ed2.jpg'
+export {default as EdinburghThree } from './ed3.jpg'
+export {default as EdinburghFour } from './ed4.jpg'
+export {default as EdinburghFive } from './ed5.jpg'
+export {default as EdinburghSix } from './ed6.jpg'

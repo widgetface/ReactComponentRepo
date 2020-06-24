@@ -1,20 +1,6 @@
 import React from "react";
-import styled from "styled-components";
+import IconWrapper from "./IconWrapper";
 
-const IconWrapper = styled.div`
-  display: flex;
-  align-items: center;
-  svg > rect:not([fill="none"]) {
-    fill: ${(props) => props.colour};
-  }
-  svg > path:not([fill]) {
-    fill: ${(props) => props.colour};
-  }
-  svg {
-    width: ${(props) => props.width};
-    height: ${(props) => props.height};
-  }
-`;
 export default function ArrowDown({ colour, width, height }) {
   return (
     <IconWrapper colour={colour} width={width} height={height}>

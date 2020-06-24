@@ -20,7 +20,6 @@ h4,
 h5 {
   width: 100vw;
   text-align: center;
-  
 }
 
 h1 {
@@ -37,4 +36,32 @@ h4 {
 }
 h5 {
   font-size: 0.8rem;
+}
+
+.portal-div {
+  display: table;
+  text-align: center;
+  font-size: 1.5rem;
+  color: $app-text-color;
+  background-color: $app-black;
+  height: 50vh;
+  width: 50vw;
+  & span {
+    display: table-cell;
+    vertical-align: middle;
+  }
+}
+
+.fade-in {
+  opacity: 0;
+  animation: fadeIn ease-in 1;
+  animation-fill-mode: forwards;
+  animation-duration: 0.6s;
+}
+
+.img-list {
+  img {
+    max-width: 100%;
+    height: auto;
+  }
 }

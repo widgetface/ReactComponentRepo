@@ -30,3 +30,9 @@ export { default as StyledBasicHeader } from "../components/banners/StyledBasicH
 
 //Form elements
 export { default as StyledCheckBoxToggle } from "../components/checkboxes/StyledCheckBoxToggle";
+
+//Portal
+export { default as Portal } from "../components/modal/Portal";
+
+//Lists
+export { default as StyledFishEyeList } from "../components/lists/StyledFishEyeList";
