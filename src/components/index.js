@@ -7,6 +7,10 @@ export { default as AnimePost } from "../components/comments/posts/AminePost";
 //Cards
 export { default as StyledLabelCard } from '../components/cards/StyledLabelCard'
 
+//Effects
+export { default as Reader } from '../components/effects/Reader'
+
+
 //Form elements
 export { default as StyledCheckBoxToggle } from "../components/checkboxes/StyledCheckBoxToggle";
 
